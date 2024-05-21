@@ -1,60 +1,82 @@
 /* Reset básico */
 body, h1, p, ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  /* Estilo do corpo */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  /* Estilo do cabeçalho e navegação */
-  header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-  }
-  
-  nav ul {
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 8px 16px;
-  }
-  
-  nav ul li a:hover {
-    background-color: #575757;
-    border-radius: 4px;
-  }
-  
-  /* Estilo das seções */
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    margin: 20px 0;
-  }
-  
-  section h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  section p {
-    font-size: 18px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Estilo do corpo */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #1E90FF; /* Fundo azul */
+  color: #fff; /* Cor do texto branco para contraste */
+}
+
+/* Estilo do cabeçalho e navegação */
+header {
+  background: #fff;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content:center;
+  padding: 2px; 
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+/* Estilo das seções */
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+section h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 18px;
+}
+
+/* Estilo das imagens */
+.section-image {
+  width: 100%;
+  max-width: 600px; /* Define um tamanho máximo para as imagens */
+  height: auto;
+  margin-bottom: 20px; /* Espaçamento entre a imagem e o texto */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Estilo dos links nas seções */
+.section-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-link:hover {
+  text-decoration: underline;
+}
