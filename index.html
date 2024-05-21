@@ -8,32 +8,64 @@
 </head>
 <body>
   <header>
-    <nav>
+    
       <ul>
-        <li><a href="#link1" id="link1">Link 1</a></li>
-        <li><a href="#link2" id="link2">Link 2</a></li>
-        <li><a href="#link3" id="link3">Link 3</a></li>
-        <li><a href="#link4" id="link4">Link 4</a></li>
+        <li><a href="#link1" id="nav-link1">Link 1</a></li>
+        <li><a href="#link2" id="nav-link2">Link 2</a></li>
+        <li><a href="#link3" id="nav-link3">Link 3</a></li>
+        <li><a href="#link4" id="nav-link4">Link 4</a></li>
       </ul>
     </nav>
+  
   </header>
   <main>
     <section id="link1">
-      <h1>Seção 1</h1>
-      <p>Conteúdo da Seção 1.</p>
+      <h1><a href="#link1" class="section-link">Dados Pessoais</a></h1>
+      <img src="imagem1.jpg" alt="Imagem 1" class="section-image">
+      <p>Olá meu nome é Vinicius, sou um programador de 20 anos, com uma paixão por tecnologia e desenvolvimento de software.
+        Atualmente, estou cursando Análise de Sistemas, onde estou aprofundando meus conhecimentos em diversas áreas da tecnologia da informação e do desenvolvimento de software.
+      Tenho experiência e habilidades em várias linguagens de programação e tecnologias, como Python, JavaScript, Html e Css.
+       Meu objetivo é criar soluções inovadoras e eficientes que possam facilitar a vida das pessoas e melhorar processos empresariais.
+      Desde pequeno tenho o sonho de ser programador e criar um software próprio, e trabalhar em uma das grandes empresas do ramo,
+    gosto de jogos, filmes e séries e tenho me empenhado muito para aprender mais sobre programação, sejam novas linguagens e tecnologias ou aprimorar as linguagens que já utilizo.</p>
     </section>
     <section id="link2">
-      <h1>Seção 2</h1>
-      <p>Conteúdo da Seção 2.</p>
+      <h1><a href="#link2" class="section-link">Formação acadêmica</a></h1>
+      <img src="imagem2.jpg" alt="Imagem 2" class="section-image">
+      <p>Minha jornada rumo à fluência em inglês e espanhol foi uma busca constante por oportunidades de aprendizado e prática, mesmo sem a oportunidade de viajar para países de língua inglesa ou espanhola. Desde cedo, desenvolvi um interesse apaixonado por idiomas e culturas, motivado pela minha crença na importância da comunicação global e na conexão entre pessoas de diferentes origens.
+
+        Meu aprendizado de inglês começou com cursos formais e aulas de idiomas, mas foi a imersão total no idioma que realmente me permitiu aprimorar minhas habilidades linguísticas. Utilizei recursos como filmes, música, livros e aplicativos para praticar diariamente, transformando cada momento em uma oportunidade de aprendizado. Mesmo sem estar em um ambiente de língua inglesa, busquei criar um ambiente de imersão em casa, incorporando o idioma em minha rotina diária tanto quanto possível.
+        
+        Da mesma forma, meu estudo de espanhol foi impulsionado pela minha determinação em mergulhar na língua e cultura, mesmo sem sair do meu país. Explorei recursos online, participei de grupos de conversação e busquei oportunidades de interação com falantes nativos da língua. Mesmo sem viagens ao exterior, consegui construir uma base sólida de habilidades linguísticas e compreensão cultural através do meu compromisso com o aprendizado autônomo e prático.
+        
+        Paralelamente à minha jornada linguística, ingressei na faculdade após concluir o ensino médio, onde estou cursando análise de sistemas. Esta jornada acadêmica tem sido uma experiência desafiadora e gratificante, repleta de novos conhecimentos e oportunidades de crescimento. Através de aulas teóricas, projetos práticos e interações com colegas e professores, estou constantemente aprimorando minhas habilidades e me preparando para uma carreira no campo da tecnologia da informação.
+        
+        Em resumo, minha jornada rumo à fluência em inglês e espanhol foi uma jornada de autodescoberta, determinação e dedicação ao aprendizado contínuo. Ao mesmo tempo, minha vida acadêmica na faculdade tem sido uma fase emocionante de crescimento pessoal e profissional, preparando-me para os desafios e oportunidades que o futuro reserva.</p>
     </section>
     <section id="link3">
-      <h1>Seção 3</h1>
-      <p>Conteúdo da Seção 3.</p>
+      <h1><a href="#link3" class="section-link">Portfólio</a></h1>
+      
+      <p>Logo abaixo um dos projetos que fiz, utilizando python.
+        </p>
+        <img src="imagem3.jpg" alt="Imagem 3" class="section-image">
     </section>
     <section id="link4">
-      <h1>Seção 4</h1>
-      <p>Conteúdo da Seção 4.</p>
+      <h1><a href="#link4" class="section-link">Contatos</a></h1>
+      
+      <p>Entre em contato.</p>
+  <form action="#" method="POST">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome"><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
+
+    <input type="submit" value="Enviar">
     </section>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
