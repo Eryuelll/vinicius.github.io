@@ -3,6 +3,7 @@ body, h1, p, ul, li {
   margin: 2;
   padding: 2;
   list-style: none;
+  .p {margin-left: 5em;}
 }
 
 /* Estilo do corpo */
@@ -11,7 +12,7 @@ body {
   line-height: 1.6;
   background-color: #1E90FF; /* Fundo azul */
   color: #fff; /* Cor do texto branco para contraste */
-  .p {margin-left: 5em;}
+  
 }
 
 /* Estilo do cabeçalho e navegação */
