@@ -20,45 +20,6 @@ header {
   padding: 10px 1;
 }
 
-nav ul {
-  display: flex;
-  justify-content:center;
-  padding: 3px; 
-}
-
-nav ul li {
-  margin: 0 16px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 9px 17px;
-}
-
-nav ul li a:hover,
-nav ul li a.active {
-  background-color: #575757;
-  border-radius: 4px;
-}
-
-/* Estilo das seções */
-main {
-  padding: 20px;
-}
-
-section {
-  margin: 20px 0;
-}
-
-section h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-section p {
-  font-size: 18px;
-}
 
 /* Estilo das imagens */
 .section-image {
