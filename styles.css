@@ -32,12 +32,4 @@ header {
   margin-right: auto;
 }
 
-/* Estilo dos links nas seções */
-.section-link {
-  color: #fff;
-  text-decoration: none;
-}
 
-.section-link:hover {
-  text-decoration: underline;
-}
