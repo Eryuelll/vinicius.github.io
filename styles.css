@@ -9,7 +9,7 @@ body, h1, p, ul, li {
 /* Estilo do corpo */
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
+  line-height: 2;
   background-color: #1E90FF; /* Fundo azul */
   color: #fff; /* Cor do texto branco para contraste */
 
