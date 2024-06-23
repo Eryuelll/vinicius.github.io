@@ -17,23 +17,23 @@ body {
 header {
   background: #fff;
   color: #fff;
-  padding: 10px 0;
+  padding: 10px 1;
 }
 
 nav ul {
   display: flex;
   justify-content:center;
-  padding: 2px; 
+  padding: 3px; 
 }
 
 nav ul li {
-  margin: 0 15px;
+  margin: 0 16px;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  padding: 8px 16px;
+  padding: 9px 17px;
 }
 
 nav ul li a:hover,
