@@ -33,7 +33,7 @@ header {
 
 /* Estilo das imagens */
 .section-image {
-  width: 70%;
+  width: 50%;
   max-width: 300px; /* Define um tamanho máximo para as imagens */
   height: auto;
   margin-bottom: 20px; /* Espaçamento entre a imagem e o texto */
